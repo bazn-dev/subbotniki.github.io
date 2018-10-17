@@ -13,12 +13,12 @@
         $(window).on('load', function () {
             $(this).scrollTop(0);
             $("body").css("overflow-y", "hidden");
-            $('.main-preloader-wrapper').delay(1000).fadeOut();
+            $('.main-preloader-wrapper').delay(500).fadeOut();
             setTimeout(function () {
                 $('.main-wrapper').css("opacity", "1");
                 $('.parallax').parallax();
                 $("body").css("overflow-y", "auto");
-            }, 1000);
+            }, 500);
         });
 
         $(".anchor-link").on("click", function (event) {

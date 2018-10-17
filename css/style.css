@@ -131,9 +131,9 @@ nav ul a:hover {
 }
 
 .header-logo {
-  margin-top: 43vh;
+  margin-top: 65vh;
   font-family: Raleway, sans-serif;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .main-background {
@@ -144,10 +144,6 @@ nav ul a:hover {
 .card-link-wrapper {
   display: flex;
   justify-content: center;
-}
-
-.card-link {
-
 }
 
 .btn-contact-us {
@@ -209,10 +205,12 @@ p {
 @media only screen and (max-width : 760px) {
   .header-logo {
     font-size: 3rem !important;
+    margin-top: 45vh;
   }
 
   .index-banner-wrapper {
-    left: 0;
+    left: 5%;
+    right: 5%;
     text-align: center;
   }
 }
