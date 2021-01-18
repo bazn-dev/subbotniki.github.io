@@ -18,7 +18,7 @@
                 $('.main-wrapper').css("opacity", "1");
                 $('.parallax').parallax();
                 $("body").css("overflow-y", "auto");
-            }, 500);
+            }, 100);
         });
 
         $(".anchor-link").on("click", function (event) {
