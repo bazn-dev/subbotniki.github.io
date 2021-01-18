@@ -1,6 +1,6 @@
 /* Preloader */
 .main-wrapper {
-    opacity: 0;
+    //opacity: 0;
 }
 
 .main-preloader-wrapper {
@@ -227,4 +227,19 @@ input[type=email]:not(.browser-default):focus:not([readonly]) {
 
 .mean-link {
     font-weight: 800;
+}
+
+.main-link__all-belarusian-people-assembly {
+    position: fixed;
+    right: -140px;
+    top: calc(50vh - 0px);
+    background: #00C853;
+    transform: rotate(90deg);
+    padding: 15px 25px;
+    color: #ffffff;
+    z-index: 99999;
+}
+
+.main-link__all-belarusian-people-assembly:hover {
+    background: #009745;
 }

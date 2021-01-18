@@ -1,9 +1,9 @@
 /* Preloader */
 .main-wrapper {
-  opacity: 0;
+  //opacity: 0;
 }
 
-.main-preloader-wrapper {
+/*.main-preloader-wrapper {
   position: absolute;
   top: 0;
   left: 0;
@@ -14,7 +14,7 @@
   align-items: center;
   background-color: #f5f5f5;
   z-index: 99999;
-}
+}*/
 
 .btn-preloader {
   width: 150px !important;

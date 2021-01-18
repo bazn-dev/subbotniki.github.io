@@ -10,7 +10,7 @@
         $('.parallax').parallax();
         $('.materialboxed').materialbox();
 
-        $(window).on('load', function () {
+        /*$(window).on('load', function () {
             $(this).scrollTop(0);
             $("body").css("overflow-y", "hidden");
             $('.main-preloader-wrapper').delay(500).fadeOut();
@@ -18,8 +18,8 @@
                 $('.main-wrapper').css("opacity", "1");
                 $('.parallax').parallax();
                 $("body").css("overflow-y", "auto");
-            }, 100);
-        });
+            }, 0);
+        });*/
 
         $(".anchor-link").on("click", function (event) {
             event.preventDefault();
